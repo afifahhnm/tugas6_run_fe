@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000"; // Sesuaikan dengan backend
+const API_URL = "https://backend-836058602525.us-central1.run.app/notes"; // Sesuaikan dengan backend
 
 // Ambil semua catatan dari backend dan tampilkan
 async function fetchNotes() {
