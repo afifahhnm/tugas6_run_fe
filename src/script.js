@@ -12,7 +12,7 @@ if (
 }
 
 // Ganti sesuai dengan backend kamu (localhost atau URL deployment)
-const API_URL = "https://tcc-be-836058602525.asia-southeast2.run.app/notes";
+const API_URL = "https://tcc-be-836058602525.asia-southeast2.run.app";
 
 // ✅ Ambil semua catatan
 async function fetchNotes() {
