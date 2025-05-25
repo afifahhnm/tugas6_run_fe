@@ -87,7 +87,7 @@
       const password = document.getElementById("password").value;
       const confPassword = document.getElementById("confPassword").value;
 
-      const res = await fetch("http://localhost:5000/users", {
+      const res = await fetch("https://tcc-be-836058602525.asia-southeast2.run.app/users", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, email, password, confPassword }),
